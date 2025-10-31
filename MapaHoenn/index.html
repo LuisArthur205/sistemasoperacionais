@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Hoenn</title>
+  <style>
+    body {
+      background-color: #1a0e0e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .mapa-container {
+      position: relative;
+      background-image: url("Mapa Hoenn.jpeg");
+      background-size: cover;  
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 1580px;  
+      height: 920px;
+      border: 3px solid #222;
+    }
+
+    canvas {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      image-rendering: pixelated;
+      border: 3px solid black;
+    }
+
+    
+    #canvas-Littleroot-Town { 
+        left: 270px; top: 595px;
+    }
+   
+    #canvas-Rustboro {
+        left: 4px; top: 320px;
+    }
+    
+    #canvas-Dewford-Town {
+         left: 150px; top: 730px;
+    }
+   
+    #canvas-Mauville{
+        left: 560px; top: 260px;
+    }
+  
+    #canvas-Lavaridge-Town {
+        left: 475px; top: 180px; 
+    }
+  
+    #canvas-Petalburg {
+        left: 110px; top: 465px;
+    }
+
+    #canvas-Fortree-City{
+        left: 649px; top: 100px;
+    }
+
+    #canvas-Mossdeep-City{
+        left: 1170px; top: 300px;
+    }
+    
+    #canvas-Sootopolis-City{
+        left: 1070px; top: 400px;
+    }
+
+    #canvas-Elite1{
+        left: 1300px; 
+        top: 480px;
+    }
+
+    #canvas-Elite2{
+        left: 1389px; 
+        top: 480px;
+    }
+
+    #canvas-Elite3{
+        left: 1389px; 
+        top: 390px;
+    }
+
+    #canvas-Elite4{
+        left: 1300px; 
+        top: 390px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="mapa-container">
+    <canvas id="canvas-Littleroot-Town" width="80" height="80"></canvas>
+    <canvas id="canvas-Rustboro" width="80" height="80"></canvas>
+    <canvas id="canvas-Dewford-Town" width="80" height="80"></canvas>
+    <canvas id="canvas-Mauville" width="80" height="80"></canvas>
+    <canvas id="canvas-Lavaridge-Town" width="80" height="80"></canvas>
+    <canvas id="canvas-Petalburg" width="80" height="80"></canvas>
+    <canvas id="canvas-Fortree-City" width="80" height="80"></canvas>
+    <canvas id="canvas-Mossdeep-City" width="80" height="80"></canvas>
+    <canvas id="canvas-Sootopolis-City" width="80" height="80"></canvas>
+    <canvas id="canvas-Elite1" width="80" height="80"></canvas>
+    <canvas id="canvas-Elite2" width="80" height="80"></canvas>
+    <canvas id="canvas-Elite3" width="80" height="80"></canvas>
+    <canvas id="canvas-Elite4" width="80" height="80"></canvas>
+  </div>
+  <script src="animacaoHenrick.js"></script>
+  <script src="animacaoAlvaro.js"></script>
+  <script src="animacaoArthur.js"></script>
+</body>
+</html>
